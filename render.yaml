@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: fruit-selector
+    runtime: docker
+    repo: https://github.com/jrofuoco/fruit-selector
+    plan: free
+    branch: main
+    dockerfilePath: ./Dockerfile
